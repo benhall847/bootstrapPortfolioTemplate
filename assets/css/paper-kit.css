@@ -25,7 +25,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-.bootstrap-switch {
+ .bootstrap-switch {
   display: inline-block;
   direction: ltr;
   cursor: pointer;
@@ -3514,7 +3514,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   z-index: -1;
 }
 
-.offline-doc .page-header .container {
+.offline-doc .page-header .container .container-material {
   z-index: 3;
 }
 
@@ -4961,7 +4961,7 @@ License - nucleoapp.com/license/
   color: #FFFFFF;
 }
 
-.container .alert {
+.container .alert .container-material {
   border-radius: 4px;
 }
 
@@ -6719,7 +6719,7 @@ License - nucleoapp.com/license/
   color: #FFF;
 }
 
-.register-background .container {
+.register-background .container .container-material {
   margin-top: 11%;
   position: relative;
   z-index: 3;
@@ -7023,7 +7023,7 @@ License - nucleoapp.com/license/
   z-index: 1;
 }
 
-.section-image .container {
+.section-image .container .container-material {
   position: relative;
   z-index: 2;
 }
@@ -7072,7 +7072,7 @@ License - nucleoapp.com/license/
   z-index: 1;
 }
 
-.section-image .container {
+.section-image .container .container-material {
   position: relative;
   z-index: 2;
 }
@@ -7108,7 +7108,7 @@ License - nucleoapp.com/license/
   h6 {
     font-size: 1em;
   }
-  .navbar .container {
+  .navbar .container .container-material {
     left: 0;
     width: 100%;
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -7764,7 +7764,7 @@ License - nucleoapp.com/license/
   .wrapper .navbar-collapse {
     display: none;
   }
-  .register-page.full-screen .page-header .container {
+  .register-page.full-screen .page-header .container .container-material {
     margin-top: 30%;
   }
   .dropdown.show .dropdown-menu,
@@ -7949,7 +7949,7 @@ License - nucleoapp.com/license/
     content: "";
     z-index: 1;
   }
-  .burger-menu .navbar .container .navbar-toggler {
+  .burger-menu .navbar .container .navbar-toggler .container-material {
     display: block;
     margin-top: 20px;
   }
@@ -8045,12 +8045,11 @@ License - nucleoapp.com/license/
     width: 960px;
   }
 }
-.container {
+.container-material {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.5), 0 6px 30px 5px rgba(0, 0, 0, 0.5), 0 8px 10px -5px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 767px) {
