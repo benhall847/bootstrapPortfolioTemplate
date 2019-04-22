@@ -3334,7 +3334,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .main-raised {
-  margin: -60px 30px 0px;
+  margin: 0px 30px 0px;
   border-radius: 6px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
@@ -6461,6 +6461,13 @@ License - nucleoapp.com/license/
 .card[data-color="blue"] {
   background: #6ec7e0;
 }
+.card[data-color="dark"]{
+  background: #506367;
+}
+
+.card[data-color="node-green"]{
+  background: rgb(143, 200, 78)
+}
 
 .card[data-color="green"] {
   background: #86d9ab;
@@ -6601,10 +6608,10 @@ License - nucleoapp.com/license/
 }
 
 .card-profile .card-avatar {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 260px;
+  max-height: 260px;
   margin: -60px auto 0;
-  border-radius: 20%;
+  border-radius: 8%;
   overflow: hidden;
 }
 
@@ -6882,8 +6889,8 @@ License - nucleoapp.com/license/
   left: 0;
   width: 250.625em;
   height: 43.75em;
-  -webkit-animation: cloudLoop 80s linear infinite;
-  animation: cloudLoop 80s linear infinite;
+  -webkit-animation: cloudLoop 70s linear infinite;
+  animation: cloudLoop 70s linear infinite;
 }
 
 @keyframes cloudLoop {
@@ -6912,7 +6919,7 @@ License - nucleoapp.com/license/
 }
 
 .section {
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .section-with-space {
@@ -6949,6 +6956,10 @@ License - nucleoapp.com/license/
 
 .section-dark {
   background-color: #0b1011;
+}
+
+.section-gray-dark{
+  background-color: #506367;
 }
 
 .section-image,
@@ -7030,6 +7041,14 @@ License - nucleoapp.com/license/
 
 .section-login {
   min-height: 700px;
+}
+
+.terminal {
+  height:300px;
+  width:90vw;
+  overflow:auto; 
+  display:flex; 
+  flex-direction:column-reverse;
 }
 
 @media all and (-ms-high-contrast: none),
@@ -8050,6 +8069,9 @@ License - nucleoapp.com/license/
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.5), 0 6px 30px 5px rgba(0, 0, 0, 0.5), 0 8px 10px -5px rgba(0, 0, 0, 0.5);
+}
+.height-min{
+  min-height:370px;
 }
 
 @media screen and (min-width: 767px) {
